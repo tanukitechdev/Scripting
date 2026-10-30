@@ -15,9 +15,9 @@ import os
 
 
 # 1. Configuración de conexión SSH a pfsense (credenciales)
-host_pfsense = "192.168.4.1" #IP del pfsense DMNT
-username = "admin"
-password = "DMNT2024$C4m814m3$"
+host_pfsense = "192.168.X.X" #IP del pfsense DMNT
+username = "" #usuario admin pfsense
+password = "" #Contraseña de usuario admin
 port = 22
 
 # 2. Rutas del archivo log de pfblocker (Bloqueos de dominio e IP)
